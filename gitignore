@@ -1,0 +1,100 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+conda-meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+overnight_logs/
+*.log
+*.out
+nohup.out
+
+# Model checkpoints and large learned artifacts
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+
+# Arrays, caches, and intermediate tensors
+cache/
+caches/
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# Raw and processed datasets
+# Raw ECG datasets should be downloaded from official providers and kept local.
+data/raw/
+data/processed/
+data/processed_v3/
+datasets/
+
+# Experiment outputs
+outputs/
+runs/
+wandb/
+tensorboard/
+formal_eval_outputs*/
+ablation_outputs*/
+ghnm_core_ablation_outputs*/
+gridsearch_stage8_pairaware_seed42/
+supp_*/
+results/
+结果图/
+
+# Temporary or archived code bundles
+src2/
+src3/
+src4/archive_*/
+src4/current_best_backup/
+src4/ghnm_overnight_bundle/
+src4/stage/
+
+# Local machine-specific configuration
+.env
+.env.*
+local_config.yaml
+local_config.yml
+config.local.yaml
+config.local.yml
+
+# Do not ignore documentation, source figures, supplementary tables, or mapping files.
+# Keep these trackable for paper release:
+#   docs/
+#   figures/
+#   resources/
+#   results_summary/
+#   data/README.md
+#   data/label_mappings/

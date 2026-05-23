@@ -1,0 +1,37 @@
+# Clean runtime dependencies for the MCKI-ECG paper release
+# Recommended Python: 3.10
+#
+# The pinned GPU build below follows the paper-running environment:
+#   PyTorch 2.9.1 + CUDA 12.8
+#
+# If CUDA 12.8 is not available on your machine, install a PyTorch build
+# matching your local CUDA version first, then keep the remaining packages
+# unchanged as much as possible.
+#
+# PyTorch CUDA wheels
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.9.1+cu128
+torchvision==0.24.1+cu128
+torchaudio==2.9.1+cu128
+
+# Scientific computing
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+
+# ECG and signal processing
+wfdb==4.3.1
+soundfile==0.13.1
+
+# Deep learning utilities
+timm==1.0.26
+einops==0.8.2
+joblib==1.5.3
+
+# Configuration, progress, and visualization
+PyYAML==6.0.3
+tqdm==4.67.3
+matplotlib==3.10.8
+Pillow==12.0.0
