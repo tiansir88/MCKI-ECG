@@ -1,0 +1,4 @@
+pair_id,disease_a,disease_b,parent_group,why_confusable
+P01,MI,STTC,Repolarization_Abnormality,心肌梗死(MI)和非特异性ST-T改变(STTC)均会表现出ST段的抬高或压低，极易在早期缺血阶段混淆。
+P02,CD,HYP,Ventricular_Depolarization_Anomaly,传导阻滞(CD)和心室肥厚(HYP)均会导致QRS波群增宽和电轴偏移，掩盖彼此的真实形态。
+P03,MI,HYP,Ischemic_Mimics,左室肥厚(LVH)伴劳损的ST-T改变在形态上极度类似急性前壁心肌缺血(MI)。
