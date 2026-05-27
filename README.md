@@ -67,7 +67,7 @@ MCKI-paper-release/
 
 ### `src/`
 
-Core model, training, and ablation code.
+Core model, training, and ablation code.The core implementation code for this part is currently not publicly available, pending completion of institutional intellectual property review.
 
 - `MCKI_backbone_factory.py`: builds the MCKI-ECG backbone.
 - `MCKI_loss_pro.py`: implements the MCKI-ECG training objective, including diagnostic-relation hard negative modeling.
